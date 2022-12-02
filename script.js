@@ -1,5 +1,5 @@
-import Range from "./components/Range/index.js";
+import ASelectorator from "./components/ASelectorator/index.js"
 
-if (!customElements.get("dream-range")) {
-    customElements.define("dream-range", Range);
+if (!customElements.get("a-selectorator")) {
+    customElements.define("a-selectorator", ASelectorator);
 }
